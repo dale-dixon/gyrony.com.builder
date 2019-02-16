@@ -1,5 +1,3 @@
-<button mat-raised-button routerLink="/design">Design</button>
-<button mat-raised-button routerLink="/technology">Technology</button>
-<button mat-raised-button routerLink="">Home</button>
-
-<router-outlet></router-outlet>
+<main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
+  <router-outlet #o="outlet"></router-outlet>
+</main>

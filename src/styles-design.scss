@@ -1,0 +1,12 @@
+@import '~@angular/material/theming';
+
+$design-primary: mat-palette($mat-indigo);
+$design-accent: mat-palette($mat-pink, A200, A100, A400);
+$design-warn: mat-palette($mat-red);
+$design-theme: mat-light-theme($design-primary, $design-accent, $design-warn);
+.booger {
+  background-color: gold;
+}
+.gyrony-design-theme {
+  @include angular-material-theme($design-theme);
+}

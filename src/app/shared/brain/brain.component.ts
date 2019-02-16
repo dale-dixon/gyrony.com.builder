@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, EventEmitter  } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,9 +8,6 @@ import { Router } from '@angular/router';
 })
 export class BrainComponent {
 
-  constructor(private router: Router) { }
+  @Output() selected = new EventEmitter();
 
-  routeTo(route: string) {
-    this.router.navigate([route]);
-  }
 }

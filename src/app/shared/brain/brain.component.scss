@@ -1,29 +1,29 @@
-:host {
-    width: 50%;
-    min-width: 200px;
-}
-
-svg {
-    width: 100%;
-}
 .background {
-    fill: #fdd835;
+  fill: #fdd835;
 }
 
 .border {
-    fill: #000;
+  fill: #000;
 }
 
 .brain-left {
-    fill: #f00;
+  fill: #f00;
+}
+
+.brain-left:hover {
+    fill: rgb(247, 119, 119);
 }
 
 .brain-right {
-    fill: #00f;
+  fill: #00f;
+}
+
+.brain-right:hover {
+    fill: rgb(127, 127, 250);
 }
 
 .brain-outline {
-    fill: #000;
-    stroke: #000;
-    stroke-width: 1px;
+  fill: #000;
+  stroke: #000;
+  stroke-width: 1px;
 }

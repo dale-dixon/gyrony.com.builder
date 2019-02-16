@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechnologyMainComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    const x = 1;
+  }
 
   ngOnInit() {
   }

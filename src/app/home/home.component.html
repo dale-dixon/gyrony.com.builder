@@ -1,1 +1,10 @@
-<app-brain></app-brain>
+<section>
+  <app-brain (selected)="routeTo($event)"></app-brain>
+
+  <div >
+    <button mat-raised-button
+            routerLink="/design">Design</button>
+    <button mat-raised-button
+            routerLink="/technology">Technology</button>
+  </div>
+</section>
